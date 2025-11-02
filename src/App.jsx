@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
+import ProductDetails from "./components/ProductDetails";
 
 const App = () => {
   return (
-    <div className='bg-red-500'>
-      App
+    <div>
+      <NavBar />
+      <Hero />
+      <ProductDetails />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
